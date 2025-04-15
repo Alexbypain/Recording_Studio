@@ -923,6 +923,7 @@ footer {
 @media screen and (max-width: 767px) {
   /* Menú de navegación */
   .logo__menu {
+    padding-top: 0rem;
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
@@ -935,11 +936,16 @@ footer {
     width: 100%;
     padding: 0.5rem 1rem;
   }
+  .navegacion{
+    padding-top: 0rem;
+
+  }
+
   .navegacion .submenu {
     position: static;
     width: 100%;
     background-color: #f5f5f5;
-    padding: 0.5rem 1rem;
+    padding: 0rem 1rem;
   }
 
   /* Sección de publicidad */
@@ -1013,8 +1019,14 @@ footer {
     gap: 1rem;
   }
 
+  .trabajadores__titulo{
+    padding-right: 2rem;
+
+  }
+
   /* Nuestros Productores */
   .trabajadores__texto {
+    padding-right:2rem;
     margin: 0 1rem;
     font-size: 0.9rem;
   }
@@ -1105,10 +1117,22 @@ footer {
     height: auto;
   }
   footer {
+    display:flex;
+    gap:2rem;
     flex-direction: column;
     padding: 1rem;
     text-align: center;
   }
+
+  .footer-left {
+    margin: 0;
+  }
+  .footer-right {
+    margin: 0;
+    justify-content: center;
+  }
+
+
   footer p {
     margin: 0.5rem 0;
   }
